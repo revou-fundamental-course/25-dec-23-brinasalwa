@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+#navigation-bar {
+    margin: auto;
+    width: 850px;
+    text-align: center;
+    padding: 10px;
+}
+
+#head {
+    padding: 20px;
+    text-align: center;
+}
+
+.vertical-menu {
+    background-color: #fff;
+    border: #00628f;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vertical-menu a {
+    display: block;
+    text-decoration: none;
+    color: #57aeff;
+    padding: 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.vertical-menu a:hover {
+    background-color: #245ccb;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: -webkit-inline-box;
+}
+
+.column {
+    min-height: 1px;
+    position: relative;
+    padding: 15px;
+}
+
+.page {
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid #2980b9;
+}
+.page-atas {
+    text-align: center;
+    background-color: #2980b9;
+    padding-top: 10px;
+    height: 115px;
+    width: 380px;
+}
+h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: center;
+    margin: 20px 0 10px 0;
+
+}
+h3 {
+    text-align: center;
+}
+
+.page-body {
+    padding: 15px;
+}
+
+img {
+    display: inline;
+    vertical-align: middle;
+    height: 200px;
+    width: 250px;
+}
+
+p {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.page-footer {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+
+.panel {
+    padding: 15px;
+}
+
+.form-control {
+    display: block;
+    margin: 3px;
+    height: 34px;
+    font-size: 14px;
+    width: 90%;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: rgba(206, 202, 202, 0.75) ;
+}
+
+#button1, #button2 {
+    place-items: center;
+    width: 30%;
+    background-color: #2980b9;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+    border-radius: 6px;
+    display: inline-block;
+
+}
+.text-right {
+    text-align: right;
+    margin: 36px;
+    border-color: #eea236
+}
+
+#reset-button, #reset-button2 {
+    place-items: center;
+    width: 30%;
+    background-color: #f0ad4e;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+    border-radius: 6px;
+    display: inline-block;
+}
+#hasil, #result {
+    text-align: left;
+}
